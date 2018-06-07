@@ -62,10 +62,11 @@ def residualDownsample(in_data, filters, cropping=None, last=False,
         conv = conv2d(conv, filters, 3)
         identity=Cropping2D(cropping=2)(in_data)
         identityShortcut=concat([identity,conv],axis=3)
+        resBlock=residualBlock(identityShortcut,filters,3)
         if last:
-            return dropout(identityShortcut)
-        crop = Cropping2D(cropping=cropping)(identityShortcut)
-        return crop, max_pooling2d(identityShortcut, 2, 2)
+            return dropout(resBlock)
+        crop = Cropping2D(cropping=cropping)(resBlock)
+        return crop, max_pooling2d(resBlock, 2, 2)
 
 def upsample(in_data, crop, filters, name='UpSample', reuse=False):
     """
@@ -108,7 +109,9 @@ def residualUpsample(in_data, crop, filters, name='UpSample', reuse=False):
         conv3 = conv2d(conv2, filters, 3)
         identity=Cropping2D(cropping=2)(merge6)
         identityShortcut=concat([identity,conv3],axis=3)
-        return identityShortcut
+        resBlock=residualBlock(identityShortcut,filters,3)
+
+        return resBlock
 
 def residualBlock(input,channels, kernel,name='residualBlock', reuse=False):
     with tf.variable_scope(name, reuse=reuse):
