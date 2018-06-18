@@ -58,6 +58,7 @@ def residualDownsample(in_data, filters, cropping=None, last=False,
     :return: The residual output.
     """
     with variable_scope(name, reuse=reuse):
+        in_data=batch_norm(in_data,name='batchNormalization')        
         conv = conv2d(in_data, filters, 3)
         conv = conv2d(conv, filters, 3)
         identity=Cropping2D(cropping=2)(in_data)
@@ -67,7 +68,6 @@ def residualDownsample(in_data, filters, cropping=None, last=False,
           return dropout(resBlock)
         crop = Cropping2D(cropping=cropping)(resBlock)
         pool=max_pooling2d(resBlock, 2, 2)
-        pool=batch_norm(pool,name='batchNormalization')
         return crop, pool
 
 def upsample(in_data, crop, filters, name='UpSample', reuse=False):
@@ -104,6 +104,7 @@ def residualUpsample(in_data, crop, filters, name='UpSample', reuse=False):
     :return: The residual output.
     """
     with variable_scope(name, reuse=reuse):
+        in_data=batch_norm(in_data,name='batchNormalization')
         up = UpSampling2D(size=(2, 2))(in_data)
         conv1 = conv2d(up, filters, 2, padding="SAME")
         merge6 = concat([crop, conv1], axis=3)
@@ -112,7 +113,7 @@ def residualUpsample(in_data, crop, filters, name='UpSample', reuse=False):
         identity=Cropping2D(cropping=2)(merge6)
         identityShortcut=concat([identity,conv3],axis=3)
         resBlock=residualBlock(identityShortcut,filters,3)
-        resBlock=batch_norm(resBlock,name='batchNorm')
+        
         return resBlock
 
 def residualBlock(input,channels, kernel,name='residualBlock', reuse=False):
@@ -138,8 +139,8 @@ def unet(in_data, name='UNet', reuse=False):
     with variable_scope(name, reuse=reuse):
         in_data = tf.image.resize_images(in_data, [168, 168])
         # in_data: (10, 128, 128, 1)
-        batch_data = batch_norm(in_data, name='batchNormalization')
-        crop1, pool1 = residualDownsample(batch_data, 64, 16, name='DownSample1', reuse=reuse)
+        
+        crop1, pool1 = residualDownsample(in_data, 64, 16, name='DownSample1', reuse=reuse)
         crop2, pool2 = residualDownsample(pool1, 128, 4, name='DownSample2', reuse=reuse)
         drop = residualDownsample(pool2, 256, name='DownSample3', reuse=reuse, last=True)
         up1 = residualUpsample(drop, crop2, 128, name='UpSample1', reuse=reuse)
