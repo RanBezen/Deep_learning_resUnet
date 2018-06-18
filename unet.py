@@ -19,7 +19,7 @@ Cropping2D = tf.keras.layers.Cropping2D
 UpSampling2D = tf.keras.layers.UpSampling2D
 max_pooling2d = tf.layers.max_pooling2d
 dropout = tf.layers.dropout
-
+batch_norm = partial(tf.layers.batch_normalization, training=True) 
 
 def downsample(in_data, filters, cropping=None, last=False,
                name='DownSample', reuse=False):
@@ -66,7 +66,9 @@ def residualDownsample(in_data, filters, cropping=None, last=False,
         if last:
             return dropout(resBlock)
         crop = Cropping2D(cropping=cropping)(resBlock)
-        return crop, max_pooling2d(resBlock, 2, 2)
+        pool=max_pooling2d(resBlock, 2, 2)
+	pool=batch_norm(pool,name='batchNormalization')
+        return crop, pool
 
 def upsample(in_data, crop, filters, name='UpSample', reuse=False):
     """
@@ -110,7 +112,7 @@ def residualUpsample(in_data, crop, filters, name='UpSample', reuse=False):
         identity=Cropping2D(cropping=2)(merge6)
         identityShortcut=concat([identity,conv3],axis=3)
         resBlock=residualBlock(identityShortcut,filters,3)
-
+	resBlock=batch_norm(resBlock,name='batchNorm')
         return resBlock
 
 def residualBlock(input,channels, kernel,name='residualBlock', reuse=False):
@@ -131,12 +133,12 @@ def unet(in_data, name='UNet', reuse=False):
     :param reuse: Reuse weights or not.
     :return: The result of the last layer of U-Net.
     """
+    
     assert in_data is not None
-
     with variable_scope(name, reuse=reuse):
         in_data = tf.image.resize_images(in_data, [168, 168])
         # in_data: (10, 128, 128, 1)
-        crop1, pool1 = residualDownsample(in_data, 64, 16, name='DownSample1', reuse=reuse)
+        crop1, pool1 = residualDownsample(batch_data, 64, 16, name='DownSample1', reuse=reuse)
         crop2, pool2 = residualDownsample(pool1, 128, 4, name='DownSample2', reuse=reuse)
         drop = residualDownsample(pool2, 256, name='DownSample3', reuse=reuse, last=True)
         up1 = residualUpsample(drop, crop2, 128, name='UpSample1', reuse=reuse)
