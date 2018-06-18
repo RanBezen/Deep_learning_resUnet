@@ -63,21 +63,21 @@ class Params(ParamsBase):
 
     # Hardware
     use_gpu = True  # IF NO GPU AVAILABE, SET TO FALSE
-    gpu_id = 0  # IF MORE THAN 1 GPU IS AVAILABLE, SELECT WHICH ONE
+    gpu_id = 1  # IF MORE THAN 1 GPU IS AVAILABLE, SELECT WHICH ONE
     dry_run = False  # SET TO TRUE IF YOU DO NOT WANT TO SAVE ANY OUTPUTS (GOOD WHEN DEBUGGING)
     profile = False  # SET TO TRUE FOR THROUGHPUT PROFILING
 
-    batch_size = 16  # number of images per batch
+    batch_size = 32  # number of images per batch
     num_iterations = 1000000  # total number of itterations
-    learning_rate = 0.0005  # learning rate
+    learning_rate = 0.0001  # learning rate
 
     crops_per_image = 10  # number of random crops per image, used for faster training
     crop_size = (128, 128)  # crop size of the input image
 
     # Training Regime
 
-    class_weights = [0.04, 0.06, 0.9]  # Weight for loss on Foreground, Background and Edge
-
+    #class_weights = [0.04, 0.06, 0.9]  # Weight for loss on Foreground, Background and Edge
+    class_weights = [0.14, 0.16, 0.7]
     # Validation
     validation_interval = 100  # number of train iterations between each validation step
 
