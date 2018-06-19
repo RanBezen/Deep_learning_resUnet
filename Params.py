@@ -67,7 +67,7 @@ class Params(ParamsBase):
     dry_run = False  # SET TO TRUE IF YOU DO NOT WANT TO SAVE ANY OUTPUTS (GOOD WHEN DEBUGGING)
     profile = False  # SET TO TRUE FOR THROUGHPUT PROFILING
 
-    batch_size = 32  # number of images per batch
+    batch_size = 18  # number of images per batch
     num_iterations = 1000000  # total number of itterations
     learning_rate = 0.0001  # learning rate
 
