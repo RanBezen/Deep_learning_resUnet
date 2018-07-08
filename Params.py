@@ -87,7 +87,7 @@ class Params(ParamsBase):
     # Saving Checkpoints
     experiment_name = 'ClassExample'  # Name of your experiment
     save_checkpoint_dir = ROOT_SAVE_DIR  # Path to save files. set at top of this file
-    save_checkpoint_iteration = 500  # number of iteration between each checkpoint save
+    save_checkpoint_iteration = 1000  # number of iteration between each checkpoint save
     save_checkpoint_every_N_hours = 5
     save_checkpoint_max_to_keep = 5
 
