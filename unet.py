@@ -137,6 +137,9 @@ def unet(in_data, name='UNet', reuse=False):
     
     assert in_data is not None
     with variable_scope(name, reuse=reuse):
+        h=in_data.get_shape().as_list()[1]
+        w = in_data.get_shape().as_list()[2]
+        in_data = tf.image.resize_images(in_data, [h+40, w+40])
         in_data = tf.image.resize_images(in_data, [168, 168])
         # in_data: (10, 128, 128, 1)
         

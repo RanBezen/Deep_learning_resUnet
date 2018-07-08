@@ -38,6 +38,7 @@ def convert_net_output_to_seg(net_output):
 
 
 def test():
+    params = TestParams()
     # Data input
     with tf.device('/cpu:0'):
         with tf.name_scope('Data'):
