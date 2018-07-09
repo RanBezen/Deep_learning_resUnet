@@ -140,7 +140,7 @@ def unet(in_data, name='UNet', reuse=False):
         h=in_data.get_shape().as_list()[1]
         w = in_data.get_shape().as_list()[2]
         in_data = tf.image.resize_images(in_data, [h+40, w+40])
-        in_data = tf.image.resize_images(in_data, [168, 168])
+        #in_data = tf.image.resize_images(in_data, [168, 168])
         # in_data: (10, 128, 128, 1)
         
         crop1, pool1 = residualDownsample(in_data, 64, 16, name='DownSample1', reuse=reuse)
