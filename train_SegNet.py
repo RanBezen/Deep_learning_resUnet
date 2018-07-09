@@ -48,8 +48,6 @@ def train():
             pixel_loss_weighted = valid_pixel_loss * (
                 gt_bg * cw[0] + tf.to_float(gt_fg) * cw[1] + gt_edge * cw[2])
             loss = tf.divide(tf.reduce_sum(pixel_loss_weighted), tf.reduce_sum(gt_valid) + tf_eps)
-            l2_loss = tf.losses.get_regularization_loss()
-            loss += l2_loss
             out_fg = tf.equal(tf.argmax(net_seg, 3), 1)
             intersection = tf.reduce_sum(tf.to_float(tf.logical_and(out_fg, gt_fg)),
                                          axis=(1, 2), name='intersection')
