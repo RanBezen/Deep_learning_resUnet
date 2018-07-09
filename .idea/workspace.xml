@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52222c7e-01a4-40e5-8dc8-9f8dd8ef630e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-06-18_142705/model_58860.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-06-18_142705/model_58860.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-06-18_142705/model_58860.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_10000.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_10000.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_10000.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_11000.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_11000.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_11000.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12000.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12000.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12000.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12606.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12606.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12606.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_9000.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_9000.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_9000.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/train/events.out.tfevents.1531119102.82634f0a884a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/val/events.out.tfevents.1531119211.82634f0a884a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/TestOutput/2018-07-08_150545/seg_calibrate2-P01.068.TIF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/TestOutput/2018-07-08_150545/seg_calibrate2-P01.072.TIF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/TestOutput/Outputs.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Outputs/TestOutput/Outputs.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params.py" beforeDir="false" afterPath="$PROJECT_DIR$/Params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_Params.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_SegNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_SegNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unet.py" beforeDir="false" afterPath="$PROJECT_DIR$/unet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +37,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_SegNet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_SegNet.py">
+      <file leaf-file-name="unet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="290">
+              <caret line="148" column="11" selection-end-line="153" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_SegNet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resUnet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resUnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_SegNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_SegNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="217" selection-start-line="217" selection-end-line="217" />
+            <state relative-caret-position="1207">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -40,11 +67,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unet.py">
+      <file leaf-file-name="Params.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+            <state relative-caret-position="232">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,10 +82,22 @@
       <file leaf-file-name="Network.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_SegNet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_SegNet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-262">
+              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +106,8 @@
       <file leaf-file-name="test_Params.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_Params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="317">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -89,6 +131,7 @@
       <find>outp</find>
       <find>norm</find>
       <find>concat</find>
+      <find>loss</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,26 +141,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test_SegNet.py" />
-        <option value="$PROJECT_DIR$/test_Params.py" />
         <option value="$PROJECT_DIR$/Outputs/TestOutput/CheckSubmission.py" />
         <option value="$PROJECT_DIR$/CheckSubmission.py" />
         <option value="$PROJECT_DIR$/resunet2.py" />
-        <option value="$PROJECT_DIR$/Network.py" />
         <option value="$PROJECT_DIR$/unet.py" />
+        <option value="$PROJECT_DIR$/test_Params.py" />
+        <option value="$PROJECT_DIR$/Network.py" />
+        <option value="$PROJECT_DIR$/u2.py" />
+        <option value="$PROJECT_DIR$/Params.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="445" />
+    <option name="y" value="-16" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1097" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_SegNet.py">
+  <component name="RunManager" selected="Python.train_SegNet">
     <configuration name="CheckSubmission" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="final_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,8 +293,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test in test_SegNet.py" />
         <item itemvalue="Python.train_SegNet" />
+        <item itemvalue="Python tests.py.test in test_SegNet.py" />
         <item itemvalue="Python.resunet2" />
         <item itemvalue="Python.unet" />
         <item itemvalue="Python.CheckSubmission" />
@@ -270,24 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 13h 32m 41s.xml">
-      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 13h 33m 36s.xml">
-      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 13h 37m 26s.xml">
-      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 15h 05m 51s.xml">
-      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 16h 01m 19s.xml">
-      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 16h 02m 51s.xml">
-      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 16h 35m 02s.xml">
       <configuration name="py.test in test_SegNet.py" configurationId="tests" />
     </history-entry>
@@ -300,6 +327,24 @@
     <history-entry file="py_test_in_test_SegNet_py - 2018.07.08 at 16h 56m 10s.xml">
       <configuration name="py.test in test_SegNet.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_SegNet_py - 2018.07.09 at 09h 32m 55s.xml">
+      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_SegNet_py - 2018.07.09 at 09h 35m 40s.xml">
+      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_SegNet_py - 2018.07.09 at 13h 31m 22s.xml">
+      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_SegNet_py - 2018.07.09 at 13h 33m 26s.xml">
+      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_SegNet_py - 2018.07.09 at 13h 35m 16s.xml">
+      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_SegNet_py - 2018.07.09 at 13h 38m 30s.xml">
+      <configuration name="py.test in test_SegNet.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -307,13 +352,13 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4744287" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.4744287" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4744287" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" visible="true" weight="0.39934713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -337,113 +382,130 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
           <line>145</line>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
           <line>146</line>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
           <line>147</line>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
           <line>148</line>
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
           <line>149</line>
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="17" />
+          <line>150</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="18" />
+          <line>151</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="19" />
+          <line>152</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unet.py</url>
-          <line>123</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/resunet2.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/resunet2.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/resunet2.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/resunet2.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/resunet2.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/resunet2.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/resUnet.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="98" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_SegNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_SegNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3536">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_SegNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -622,16 +684,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Outputs/TestOutput/CheckSubmission.py" />
     <entry file="file://$PROJECT_DIR$/Outputs/CheckSubmission.py" />
-    <entry file="file://$PROJECT_DIR$/Params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CheckSubmission.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -639,34 +691,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resunet2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-          <folding>
-            <element signature="e#68#91#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_SegNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-262">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_SegNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="148" column="11" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resUnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_Params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="317">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -675,27 +751,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unet.py">
+    <entry file="file://$PROJECT_DIR$/Params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_SegNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        <state relative-caret-position="232">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
