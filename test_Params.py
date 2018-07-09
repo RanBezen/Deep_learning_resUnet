@@ -46,7 +46,8 @@ class TestParams(TestParamsBase):
 
     image_shape = [512, 640]  # crop size of the input image
     data_dir = os.path.join(ROOT_DATA_DIR, 'Test', 'RawImages')
-    load_checkpoint_path = './Logs/ClassExample/2018-07-08_141752/model_56932.ckpt'  # Path to checkpoint
+    load_checkpoint_path = './Logs/ClassExample/2018-07-09_065138/model_12000.ckpt'  # Path to checkpoint
+    #load_checkpoint_path = './Logs/ClassExample/2018-06-18_142705/model_58500.ckpt'  # Path to checkpoint
     experiment_name = 'TestOutput'
 
     filename_regexp = r'calibrate2-P01.[0-9]{3}.TIF'

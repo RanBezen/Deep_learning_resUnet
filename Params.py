@@ -71,7 +71,7 @@ class Params(ParamsBase):
     num_iterations = 1000000  # total number of itterations
     learning_rate = 0.0001  # learning rate
 
-    crops_per_image = 20  # number of random crops per image, used for faster training
+    crops_per_image = 10  # number of random crops per image, used for faster training
     crop_size = (128, 128)  # crop size of the input image
 
     # Training Regime

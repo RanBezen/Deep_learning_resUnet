@@ -1,6 +1,6 @@
 import tensorflow as tf
-from unet import unet
-#from resunet2 import unet
+#from unet import unet
+from resUnet import unet
 
 class Network(object):
     def __init__(self):
