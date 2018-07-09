@@ -5,14 +5,16 @@ Generator and Discriminator network.
 import tensorflow as tf
 from tensorflow import concat, variable_scope
 from functools import partial
-
+regularizer = tf.contrib.layers.l2_regularizer(scale=0.1)
 xavier_init = tf.contrib.layers.xavier_initializer
 conv2d = partial(tf.layers.conv2d,
                  activation=tf.nn.relu,
                  kernel_initializer=xavier_init(),
+                 kernel_regularizer=regularizer,
                  padding="VALID")
 conv2d_linear = partial(tf.layers.conv2d,
                         kernel_initializer=xavier_init(),
+                        kernel_regularizer=regularizer,
                         padding="SAME")
 Cropping2D = tf.keras.layers.Cropping2D
 UpSampling2D = tf.keras.layers.UpSampling2D
