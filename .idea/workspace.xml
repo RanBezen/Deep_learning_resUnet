@@ -3,30 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52222c7e-01a4-40e5-8dc8-9f8dd8ef630e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_10000.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_10000.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_10000.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_11000.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_11000.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_11000.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12000.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12000.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12000.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12606.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12606.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_12606.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_9000.ckpt.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_9000.ckpt.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/model_9000.ckpt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/train/events.out.tfevents.1531119102.82634f0a884a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ClassExample/2018-07-09_065138/val/events.out.tfevents.1531119211.82634f0a884a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/TestOutput/2018-07-08_150545/seg_calibrate2-P01.068.TIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/TestOutput/2018-07-08_150545/seg_calibrate2-P01.072.TIF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/TestOutput/Outputs.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Outputs/TestOutput/Outputs.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Params.py" beforeDir="false" afterPath="$PROJECT_DIR$/Params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_Params.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resUnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/resUnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_SegNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_SegNet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resUnet.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="resUnet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resUnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="306">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -58,8 +36,8 @@
       <file leaf-file-name="train_SegNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_SegNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="238">
+              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -67,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Params.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Params.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="181">
+              <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -82,7 +60,7 @@
       <file leaf-file-name="Network.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="-17">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -149,14 +127,16 @@
         <option value="$PROJECT_DIR$/Network.py" />
         <option value="$PROJECT_DIR$/u2.py" />
         <option value="$PROJECT_DIR$/Params.py" />
+        <option value="$PROJECT_DIR$/train_SegNet.py" />
+        <option value="$PROJECT_DIR$/resUnet.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="445" />
-    <option name="y" value="-16" />
+    <option name="x" value="1813" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1097" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -184,6 +164,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,18 +328,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.4744287" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4744287" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.4734098" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" visible="true" weight="0.39934713" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.3826903" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -421,37 +402,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>111</line>
+          <line>113</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>112</line>
+          <line>114</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>113</line>
+          <line>115</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>114</line>
+          <line>116</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>115</line>
+          <line>117</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>116</line>
+          <line>118</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resUnet.py</url>
-          <line>117</line>
+          <line>119</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
@@ -705,37 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_SegNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_SegNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="148" column="11" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resUnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
@@ -751,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="-17">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -759,13 +713,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_SegNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="181">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_SegNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resUnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
